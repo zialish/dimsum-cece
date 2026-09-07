@@ -1,0 +1,10 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    
+    # Menghentikan proses jika yang diakses adalah file atau folder asli yang ada di direktori
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    
+    # Mengalihkan semua URL request ke index.php dengan parameter url=
+    RewriteRule ^(.*)$ index.php?url=$1 [L,QSA]
+</IfModule>
