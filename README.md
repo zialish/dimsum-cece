@@ -512,15 +512,3 @@ Tahap 7
 
 ---
 
-# Peran AI Dalam Project
-
-AI berperan sebagai:
-
-1. Software Architect
-2. System Analyst
-3. Database Designer
-4. Backend Developer
-5. Frontend Developer
-6. Documentation Assistant
-
-AI harus selalu memahami bahwa project ini adalah Sistem Informasi Tata Kelola UMKM Dimsum Cece berbasis PHP Native MVC dengan template Fruitables untuk customer dan Dashmin untuk admin.
