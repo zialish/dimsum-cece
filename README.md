@@ -356,61 +356,54 @@ Output:
 
 ---
 
-# Struktur Folder MVC
+## 📁 Struktur Folder MVC
 
-project-root
-
-├── app
+```text
+project-root/
+├── app/
+│   ├── controllers/
+│   │   ├── AuthController.php
+│   │   ├── DashboardController.php
+│   │   ├── ProdukController.php
+│   │   ├── PesananController.php
+│   │   ├── ReservasiController.php
+│   │   ├── PembayaranController.php
+│   │   └── LaporanController.php
+│   │
+│   ├── models/
+│   │   ├── UserModel.php
+│   │   ├── ProdukModel.php
+│   │   ├── KategoriModel.php
+│   │   ├── PesananModel.php
+│   │   ├── DetailPesananModel.php
+│   │   ├── ReservasiModel.php
+│   │   ├── PembayaranModel.php
+│   │   └── NotifikasiModel.php
+│   │
+│   ├── views/
+│   │   ├── customer/
+│   │   └── admin/
+│   │
+│   ├── config/
+│   ├── helpers/
+│   └── middleware/
 │
-├── controllers
-│ ├── AuthController.php
-│ ├── ProdukController.php
-│ ├── PesananController.php
-│ ├── ReservasiController.php
-│ ├── PembayaranController.php
-│ ├── LaporanController.php
-│ └── DashboardController.php
+├── public/
+│   ├── assets/
+│   └── uploads/
 │
-├── models
-│ ├── UserModel.php
-│ ├── ProdukModel.php
-│ ├── KategoriModel.php
-│ ├── PesananModel.php
-│ ├── DetailPesananModel.php
-│ ├── PembayaranModel.php
-│ ├── ReservasiModel.php
-│ └── NotifikasiModel.php
+├── database/
+│   └── dimsum_cece.sql
 │
-├── views
-│ ├── customer
-│ ├── admin
-│ ├── layouts
-│ └── partials
-│
-├── config
-│ ├── Database.php
-│ └── Config.php
-│
-├── helpers
-│
-├── middleware
-│
-├── public
-│ ├── assets
-│ ├── uploads
-│ └── index.php
-│
-├── admin
-│ └── dashmin-1.0.0
-│
-├── fruitables-1.0.0
-│
-├── database
-│ └── dimsum_cece.sql
-│
-└── AI.md
-
----
+├── admin/
+├── dashmin-1.0.0/
+├── fruitables-1.0.0/
+├── index.php
+├── login.php
+├── logout.php
+├── koneksi.php
+└── README.md
+```
 
 # Standar Pengembangan
 
